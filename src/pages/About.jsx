@@ -10,7 +10,7 @@ const About = () => {
   return (
     <section className='max-container'>
       <h1 className="head-text">
-        Hello, I'm <span className='blue-gradient_text font-semibold'>Rafiq</span>
+        Hello, I'm <span className='blue-gradient_text font-semibold drop-shadow'>Rafiq</span> 👋
       </h1>
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>I'm a <span className='font-semibold'>Muhammad Rafiq</span> from <span className='font-semibold'> Pakistan</span></p>
@@ -20,7 +20,7 @@ const About = () => {
         <h3 className="subhead-text">My Skills</h3>
         <div className="mt-16 flex flex-wrap gap-12">
           {skills.map((skill) => (
-            <div className='block-container w-20 h-20'>
+            <div className='block-container w-20 h-20' key={skill.name}>
               <div className='btn-back rounded-xl'/>
               <div className='btn-front rounded-xl flex justify-center items-center cursor-pointer'>
                 <img src={skill.imageUrl} alt={skill.name} className='w-1/2 h-1/2 object-contain' />
@@ -37,7 +37,7 @@ const About = () => {
         <p>I'm a <span className='font-semibold'>Front End Developer</span> with a passion for creating beautiful and functional websites.</p>
       </div>
       <div className="mt-12 flex">
-        <VerticalTimelineElement>
+        <VerticalTimeline>
           {experiences.map((experience) => (
             <VerticalTimelineElement
             key={experience.company_name}
@@ -70,7 +70,7 @@ const About = () => {
               </ul>
               </VerticalTimelineElement>
           ))}
-        </VerticalTimelineElement>
+        </VerticalTimeline>
       </div>
       </div>
       <hr className='border-slate-200'/>

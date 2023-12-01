@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { arrow } from '../assets/icons'
 
 
+
 const Projects = () => {
   return (
     <section className='max-container'>
@@ -44,7 +45,7 @@ const Projects = () => {
       ))}
     </div>
     <hr className='border-slate-200'/>
-  
+ 
     </section>
   )
 }

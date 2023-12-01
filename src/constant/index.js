@@ -66,6 +66,7 @@ export const skills = [
         imageUrl: motion,
         name: "Motion",
         type: "Animation",
+        title: "Motion Design",
     },
     {
         imageUrl: mui,
@@ -76,6 +77,7 @@ export const skills = [
         imageUrl: nextjs,
         name: "Next.js",
         type: "Frontend",
+        title: "React Framework",
     },
     {
         imageUrl: nodejs,
