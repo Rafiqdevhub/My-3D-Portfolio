@@ -1,15 +1,17 @@
 import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
+
+
+
 import logo from './logo.svg'
+import webdevelpment from './webdevelpment.png'
+import reactlogo from './reactlogo.png'
+import mernstack from './mernstack.png'
 
 export {
     hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
-    logo
+   
+    logo,
+    webdevelpment,
+    reactlogo,
+    mernstack,
 }

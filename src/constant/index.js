@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { mernstack,  reactlogo,  webdevelpment } from "../assets/images";
 import {
     car,
     contact,
@@ -113,13 +113,26 @@ export const skills = [
 
 export const experiences = [
     {
+        title: "Web Developer",
+        company_name: "Self Learned",
+        icon: webdevelpment,
+        iconBg: "#b7e4c7",
+        date: "2023",
+        points: [
+            "Developing and maintaining web applications using React.js(NextJs) and other related technologies.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+    {
         title: "React.js Developer",
         company_name: "Self Practice",
-        icon: starbucks,
+        icon: reactlogo,
         iconBg: "#accbe1",
         date: "2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Developing and maintaining web applications using React.js(NextJs) and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
@@ -128,37 +141,25 @@ export const experiences = [
     {
         title: "React Native Developer",
         company_name: "In learning process",
-        icon: tesla,
+        icon: reactlogo,
         iconBg: "#fbc3bc",
         date: "2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Developing and maintaining web applications using React.js(NextJs) and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
-    {
-        title: "Web Developer",
-        company_name: "Self Learned",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+   
     {
         title: "MERN",
         company_name: "Self learning",
-        icon: meta,
+        icon: mernstack,
         iconBg: "#a2d2ff",
         date: "2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Developing and maintaining web applications using React.js(NextJs) and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
@@ -188,36 +189,36 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: '#',
+        name: 'Nike Shope ',
+        description: 'Create an E-Comerce first web appllication for Nike shope, where I used a Tailwindcss framwark',
+        link: 'https://github.com/Rafiq-student',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
+        name: 'Under Process',
+        description: '',
         link: '#',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
+        name: 'Under Process',
+        description: '',
         link: '#',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
+        name: 'Under Process',
+        description: '',
         link: '#',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
+        name: 'Under Process',
+        description: '',
         link: '#',
     },
     {

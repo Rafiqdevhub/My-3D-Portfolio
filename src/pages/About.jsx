@@ -14,7 +14,7 @@ const About = () => {
       </h1>
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>I'm a <span className='font-semibold'>Muhammad Rafiq</span> from <span className='font-semibold'> Pakistan</span></p>
-        <p>I'm a <span className='font-semibold'>Front End Developer</span> with a passion for creating beautiful and functional websites.</p>
+        <p>I'm a <span className='font-semibold'>Developer</span> with a passion for creating beautiful and functional websites.</p>
       </div>
       <div className="py-10 flex flex-col">
         <h3 className="subhead-text">My Skills</h3>
@@ -34,7 +34,7 @@ const About = () => {
         <h3 className='subhead-text'>Experience</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>I'm a <span className='font-semibold'>Muhammad Rafiq</span> from <span className='font-semibold'> Pakistan</span></p>
-        <p>I'm a <span className='font-semibold'>Front End Developer</span> with a passion for creating beautiful and functional websites.</p>
+        <p>I'm a <span className='font-semibold'>Developer</span> with a passion for creating beautiful and functional websites.</p>
       </div>
       <div className="mt-12 flex">
         <VerticalTimeline>
