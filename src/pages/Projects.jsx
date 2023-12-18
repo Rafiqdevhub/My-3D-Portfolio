@@ -12,7 +12,7 @@ const Projects = () => {
       My <span className='blue-gradient_text font-semibold'>Projects</span>
     </h1>
     <div className="mt-5 flex flex-col gap-3 text-slate-500">
-     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores facere necessitatibus ratione et placeat numquam laboriosam aspernatur ut quas maiores, quis, provident reiciendis debitis cumque in? Veniam tempore incidunt consequatur.</p>
+     <p>I Have been created projects for my learning, growing my skills and to to know how can create and learn to make my creativity for coding.</p>
     </div>
     <div className="flex flex-wrap my-20 gap-16">
       {projects.map((project) => (

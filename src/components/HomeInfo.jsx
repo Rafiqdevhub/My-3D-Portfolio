@@ -19,7 +19,7 @@ const renderContent={
     ),
     2:(
         <InfoBox
-        text='I am a bigginer in Web Deveplement'
+        text='I am a bigginer in Web Deveplement'n
         link='/about'
         btnText='learn More'
         />

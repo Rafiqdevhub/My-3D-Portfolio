@@ -3,8 +3,10 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 
 import 'react-vertical-timeline-component/style.min.css'
 
-import { skills, experiences } from '../constant'
+import { skills, experiences, socialLinks } from '../constant'
 import CTA from '../components/CTA'
+import Socials from './Socials'
+import { Link } from '@nextui-org/react'
 
 const About = () => {
   return (
@@ -16,6 +18,8 @@ const About = () => {
         <p>I'm a <span className='font-semibold'>Muhammad Rafiq</span> from <span className='font-semibold'> Pakistan</span></p>
         <p>I'm a <span className='font-semibold'>Developer</span> with a passion for creating beautiful and functional websites.</p>
       </div>
+     <Socials/>
+      
       <div className="py-10 flex flex-col">
         <h3 className="subhead-text">My Skills</h3>
         <div className="mt-16 flex flex-wrap gap-12">
