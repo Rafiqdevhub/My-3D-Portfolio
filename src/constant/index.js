@@ -28,14 +28,29 @@ import {
 
 export const skills = [
     {
+        imageUrl: html,
+        name: "HTML",
+        type: "Frontend",
+    },
+    {
         imageUrl: css,
         name: "CSS",
         type: "Frontend",
     },
     {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
+        imageUrl: javascript,
+        name: "JavaScript",
+        type: "Frontend",
+    },
+    {
+        imageUrl: tailwindcss,
+        name: "Tailwind CSS",
+        type: "Frontend",
+    },
+    {
+        imageUrl: sass,
+        name: "Sass",
+        type: "Frontend",
     },
     {
         imageUrl: git,
@@ -48,14 +63,14 @@ export const skills = [
         type: "Version Control",
     },
     {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
+        imageUrl: nodejs,
+        name: "Node.js",
+        type: "Backend",
     },
     {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
+        imageUrl: express,
+        name: "Express",
+        type: "Backend",
     },
     {
         imageUrl: mongodb,
@@ -63,47 +78,23 @@ export const skills = [
         type: "Database",
     },
     {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-        title: "Motion Design",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
+        imageUrl: react,
+        name: "React",
         type: "Frontend",
-    },
+    },  
+  
     {
         imageUrl: nextjs,
         name: "Next.js",
         type: "Frontend",
         title: "React Framework",
     },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
+    
+  
+   
+   
+    
+   
     {
         imageUrl: typescript,
         name: "TypeScript",

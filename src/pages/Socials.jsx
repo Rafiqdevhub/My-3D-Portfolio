@@ -5,7 +5,7 @@ import { Link } from '@nextui-org/react'
 const Socials = () => {
   return (
     <div className='py-100 flex flex-col'>
-        <h2 className='subhead-text'>Socials Links</h2>
+        <h2 className='subhead-text'>Socials Links.</h2>
         <div className='mt-16 flex flex-wrap-reverse gap-12'>
         {socialLinks.map((social) => (
           <div className="block-container w-20 h-20" key={social.name}>

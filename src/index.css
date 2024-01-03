@@ -81,8 +81,8 @@ body:has(.card[data-color="green"]:hover) {
 
 .glassmorphism {
   background: rgba(8, 116, 239, 0.07);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  /* backdrop-filter: none; */
+  /* -webkit-backdrop-filter: blur(10px); */
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
@@ -149,8 +149,8 @@ body:has(.card[data-color="green"]:hover) {
   width: inherit;
   height: inherit;
   background-color: #ffffff33;
-  -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);
+  /* -webkit-backdrop-filter: blur(20px); */
+  /* backdrop-filter: blur(20px); */
   transition: 250ms;
   transform-style: preserve-3d;
   transform-origin: top left;
